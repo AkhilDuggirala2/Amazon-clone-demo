@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  max-width: 1600px;
+}
+
+.header-signin {
+  position: relative;
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+  justify-content: center;
+  z-index: 101;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.header-signin a {
+  display: flex;
+}
+
+.signin-logo {
+  width: 170px;
+  height: 70px;
+}
+
+.header-signinText {
+  position: absolute;
+  display: block;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 450px;
+  border: 1px solid lightgray;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 30%;
+  height: 50vh;
+  z-index: 99;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.header-signinText h1 {
+  display: flex;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.header-signinText label {
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.header-signinText input {
+  position: relative;
+  display: block;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  outline: none;
+  background: transparent;
+  padding: 10px 30px;
+  margin-left: 5px;
+  margin-top: 5px;
+  transition: all 0.5s;
+}
+
+.header-signinText input:hover {
+  border: 2px solid #febd69;
+}
+
+.header-btn {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 5px;
+  text-align: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+  background-color: #febd69;
+  color: rgb(51, 51, 51);
+  padding: 10px 50px;
+  width: 100%;
+}
+
+.header-btn a {
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(51, 51, 51);
+}
+
+.header-btn:hover {
+  background-color: orange;
+}
+
+.header-signin-para {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.header-signin-para p {
+  font-size: 17px;
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.header-account {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 5px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: lightgray;
+  color: rgb(51, 51, 51);
+  padding: 10px 50px;
+  width: 100%;
+}
+
+.header-account a {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+
+.header-account:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
